@@ -121,3 +121,67 @@ a{
     color: #6c757d;
     border-bottom: 1px dotted;
 }
+.page_install{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 45px;
+}
+
+.page_01{
+    display: flex;
+}
+.page_01 .pageText{
+    width: 55%;
+    font-size: 25px;
+    margin:0 20px;
+}
+.page_01 .pageText h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+.page_01 .pageText p{
+    margin: 20px 0;
+}
+.page_01 .pageText p a{
+    color: blue;
+    text-decoration:underline;
+}
+.pageCode{
+    width: 55%;
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+    margin: 0 50px;
+}
+.pageCode .axz{
+    width: 100%;
+    padding: 45px;
+    margin: 20px 0;
+    background-color: #f8f9fa;
+    color:    #212529;
+}
+.pageCode button{
+    padding: 9px;
+    position: absolute;
+    left: 250px; 
+    margin: -20px 435px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.language-sh::before{
+    color: #009;
+    content: "$ ";
+}
+.pageBtn{
+    margin: 18px;
+}
+.pageBtn input[type=button]{
+    padding: 25px;
+    font-size: 30px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    Color: blue;
+    background-color: #fff;
+}
