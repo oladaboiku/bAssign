@@ -130,6 +130,14 @@ a{
 .page_01{
     display: flex;
 }
+.pageIcon{
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: #2e9264;
+    color: #fff;
+    margin: 12px;
+}
 .page_01 .pageText{
     width: 55%;
     font-size: 25px;
