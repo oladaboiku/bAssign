@@ -251,11 +251,24 @@ li{
 .footer{
     background-color: #f8f9fa;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 60px;
     font-size: 20px;
+    margin: 20px auto;
 }
 .footer_page{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+}
+h5{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.footerLogo span{
+    margin: 15px;
+    font-size: 38px;
+}
+.footerLogo ul{
+    width: 55%;
+    font-size: 25px;
 }
