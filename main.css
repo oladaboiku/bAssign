@@ -122,8 +122,9 @@ a{
     border-bottom: 1px dotted;
 }
 .page_install,
-.page_js{
-    margin: 0 auto;
+.page_js,
+.iconPage{
+    margin: 50px auto;
     width: 80%;
     font-size: 45px;
 }
@@ -131,11 +132,27 @@ a{
 .page_01{
     display: flex;
 }
-.pageIcon{
+.page_js .pageIcon{
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: #267dfd;
+    color: #fff;
+    margin: 12px;
+}
+.page_install .pageIcon{
     border-radius: 10px;
     width: 80px;
     height: 80px;
     background-color: #2e9264;
+    color: #fff;
+    margin: 12px;
+}
+.iconPage .pageIcon{
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: #7952b3;
     color: #fff;
     margin: 12px;
 }
