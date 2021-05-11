@@ -62,7 +62,7 @@ a{
 .icons .btn{
     margin: 30px;
 }
-input[type=button]{
+.icons input[type=button]{
     width: 160px;
     padding: 15px;
     font-size: 20px;
@@ -70,4 +70,34 @@ input[type=button]{
     background-color: #7952b3;
     border: 1px solid yellow;
     border-radius: 9px;
+}
+.banner{
+    font-size: 42px;
+    position: relative;
+    width: 80%;
+    margin: 90px auto;
+}
+.bannerClass{
+    display: flex;
+    margin: 10px;
+    
+}
+.banner_text{
+    width: 100%;
+}
+.banner_text h1{
+    font-size: 99px;
+}
+.bannerBtn input[type=button]{
+    width: 15%;
+    padding: 30px;
+    border-radius: 8px;
+    font-size: 25px;
+    
+}
+.btnA{
+    background-color: #7952b3;
+    color:#fff;
+}.btnB{
+    background-color: #fff;
 }
