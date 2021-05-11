@@ -8,6 +8,9 @@ a{
     color: #e1e3f3;
 
 }
+img{
+    width: 100%;
+}
 .navbar{
     width: 100%;
     background-color: #7952b3;
@@ -123,7 +126,8 @@ a{
 }
 .page_install,
 .page_js,
-.iconPage{
+.iconPage,
+.themeOfficial{
     margin: 50px auto;
     width: 80%;
     font-size: 45px;
