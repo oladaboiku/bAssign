@@ -251,11 +251,51 @@ li{
 .footer{
     background-color: #f8f9fa;
     display: flex;
-    justify-content: space-around;
-    height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 350px;
     font-size: 20px;
+    margin: 20px ;
 }
 .footer_page{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    margin:0 45px;
+    font-size: 22px;
+}
+.footer_page h5 {
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.footer_page ul li{
+    padding: 10px;
+    font-size: 24px;
+
+}
+.footer_page ul li a{
+    color: #6c757d;
+}
+
+.footerLogo{
+    margin: 0 195px;
+    width: 45%;
+    
+}
+.footerLogo ul li{
+    padding: 12px;
+    font-size: 25px;
+}
+.footerLogo ul li a{
+    color: #6c757d;
+
+}
+.footerLogo ul li a:hover{
+    color:#267dfd;
+    border-bottom: 1px solid;
+}
+.footerLogo span{
+    font-size: 45px;
+    margin: 0 0 0 10px;
+    position: absolute;
+    
 }
