@@ -121,7 +121,8 @@ a{
     color: #6c757d;
     border-bottom: 1px dotted;
 }
-.page_install{
+.page_install,
+.page_js{
     margin: 0 auto;
     width: 80%;
     font-size: 45px;
@@ -186,6 +187,39 @@ a{
     margin: 18px;
 }
 .pageBtn input[type=button]{
+    padding: 25px;
+    font-size: 30px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    Color: blue;
+    background-color: #fff;
+}
+.page_js .pageCode .axz{
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #f8f9fa;
+    color:    #212529;
+    overflow-y: hidden;
+}
+.page_js .pageCode button{
+    padding: 9px;
+    position: absolute;
+    left: 290px; 
+    margin: 0px 490px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.language-html{
+    color: #009;
+}
+
+.pageBtn{
+    margin: 18px;
+}
+.page_js .pageBtn input[type=button]{
     padding: 25px;
     font-size: 30px;
     border: 1px solid blue;
